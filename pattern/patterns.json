@@ -1,0 +1,12 @@
+[
+    {
+        "name": "AllowFromUser",
+        "regexp": "From: [a-z-]*.test1.de",
+        "allow": true
+    },
+    {
+        "name": "BlockToUser",
+        "regexp": "To: [a-z-]*.test2.de",
+        "allow": false
+    }
+]
